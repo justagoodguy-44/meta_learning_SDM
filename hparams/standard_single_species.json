@@ -1,0 +1,23 @@
+{
+    "seed_split": 42,
+    "co_occurrence": true,
+    "valavi": false,
+    "val_size": 0.2,
+    "num_layers": 4,
+    "width_MLP": 512,
+    "dropout": 0.01,
+    "epochs": 30,
+    "batch_size": 256,
+    "learning_rate": 0.0001,
+    "learning_rate_decay": 0.95,
+    "weight_decay": 0.0001,
+    "blocked_cv": false,
+    "num_cv_blocks": [
+        5,
+        5
+    ],
+    "cross_validation": true,
+    "cross_validation_using_test": true,
+    "early_stopping": true,
+    "early_stopping_patience": 3
+}

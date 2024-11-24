@@ -1,0 +1,31 @@
+{
+    "seed_split": 42,
+    "co_occurrence": true,
+    "valavi": false,
+    "val_size": 0.2,
+    "num_layers": 4,
+    "width_MLP": 512,
+    "dropout": 0.15,
+    "epochs": 30,
+    "batch_size": 256,
+    "learning_rate": 0.01,
+    "learning_rate_decay": 0.95,
+    "weight_decay": 0.994,
+    "blocked_cv": false,
+    "num_cv_blocks": [
+        5,
+        5
+    ],
+    "cross_validation": true,
+    "cross_validation_using_test": true,
+    "only_fine_tune_last_layer": true,
+    "early_stopping": true,
+    "early_stopping_patience": 3,
+    "ways": 1,
+    "shots": 2,
+    "outer_loop_iters": 25,
+    "inner_loop_iters": 15,
+    "fast_lr": 0.01,
+    "meta_lr": 0.001,
+    "tasks_batch_size": 5
+}

@@ -1,0 +1,3 @@
+,seed_split,co_occurrence,valavi,val_size,num_layers,width_MLP,dropout,epochs,batch_size,learning_rate,learning_rate_decay,weight_decay,blocked_cv,num_cv_blocks,cross_validation,cross_validation_using_test,early_stopping,early_stopping_patience,width_mlp,region,num_covariates,device,lambda_1,lambda_2,lambda_3,loss_fn,num_species
+0,42,True,False,0.2,3,512,0.01555,30,256,0.00164,0.95,0.00943,True,5,True,True,True,3,324,NZ,13,cuda,1,0.8,0.19999999999999996,<function full_weighted_loss at 0x0000015FB5CE0940>,52
+1,42,True,False,0.2,3,512,0.01555,30,256,0.00164,0.95,0.00943,True,5,True,True,True,3,324,NZ,13,cuda,1,0.8,0.19999999999999996,<function full_weighted_loss at 0x0000015FB5CE0940>,52

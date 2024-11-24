@@ -1,0 +1,3 @@
+,seed_split,co_occurrence,valavi,val_size,num_layers,width_MLP,dropout,epochs,batch_size,learning_rate,learning_rate_decay,weight_decay,blocked_cv,num_cv_blocks,cross_validation,region,num_covariates,device,lambda_1,lambda_2,lambda_3,loss_fn,species,num_species
+0,42,False,False,0.2,4,512,0.01,30,256,0.0001,0.95,0.0001,True,5,True,CAN,15,cuda,1,0.8,0.19999999999999996,<function full_weighted_loss at 0x000001A4FCB508B0>,can20,1
+1,42,False,False,0.2,4,512,0.01,30,256,0.0001,0.95,0.0001,True,5,True,CAN,15,cuda,1,0.8,0.19999999999999996,<function full_weighted_loss at 0x000001A4FCB508B0>,can20,1
